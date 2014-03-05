@@ -5,16 +5,36 @@
         <title>Erlands kursblogg</title>
     </head>
     <body>
-        <p>På denna blogg kommer jag dokumentera min kurs i Webbteknisk Introduktion
-        </p>    
-        <p>
         <ul>
             <li><a href="../index.html">Startsida</a></li>
             <li><a href="laborationer.html">Laborationer</a></li>
             <li><a href="presentation.html">Presentation</a></li>
             <li><a href="kontakt.html">Kontakt</a></li>
         </ul>
-        </p>
+        
+        <form action=""  method="post">
+            Observera!  Detta är bara ett påhittad kontaktformulär
+            <fieldset>
+                <legend>Fråga</legend>
+                <label>Ärendetyp</label>
+                    <select>
+                      <option value="Fråga">Fråga</option>
+                      <option value="Klagomål">Klagomål</option>
+                      <option value="Reklamation">Reklamation</option>
+                    </select> 
+                <label>Rubrik:</label><input type="text" placeholder="Varför händer detta mig?">
+                <label>Fråga:</label><textarea></textarea>
+                <button type="submit">Skicka frågan</button>
+            </fieldset>
+            </form>
+            <form action=""  method="post">
+                <fieldset>
+                    <legend>Information om dig</legend>
+                    <label>Kontakta mig via mail</label><input type="checkbox">
+                    <label>Kontakta mig via telefon</label><input checked type="checkbox">
+                    <button type="submit">Skicka frågan</button>
+                </fieldset>
+            </form>
     </body>
 </html>
         
